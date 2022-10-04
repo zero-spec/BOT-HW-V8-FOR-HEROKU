@@ -223,7 +223,7 @@ timezone: "Asia/Jakarta"
 })
 async function replyReg(teks) {
 let buttonsntnssfww = [
-{ buttonId: `$verify`, buttonText: { displayText: 'VERIFIKASI' }, type: 1 },
+{ buttonId: `$verifikasi`, buttonText: { displayText: 'VERIFIKASI' }, type: 1 },
 ]
 await haikal.sendButtonText(m.chat, buttonsntnssfww, `Haii 👋 Kak ${pushname} Selamat ${salam} *Aku Adalah Bot Hw Mods*
 Agar Bot Bisa Di Gunakan Silahkan Verifikasi Terlebih Dahulu Dengan Click Button Yang Ada Di Bawah 🌷
